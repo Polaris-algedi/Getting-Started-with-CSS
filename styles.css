@@ -77,7 +77,7 @@ html {
 }
 
 body {
-  font-family: var(--nunito);
+  font-family: var(--nunito-sans);
   font-size: var(--font-size);
 
   margin: 0;
@@ -98,6 +98,56 @@ a {
 a:hover {
   color: var(--hotmag);
   text-decoration: none;
+}
+
+/* intro styles */
+#intro {
+  padding-bottom: 10rem;
+}
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#intro .name {
+  font-family: var(--nunito);
+}
+
+#intro .name span {
+  font-family: var(--nunito-sans);
+  font-size: 4rem;
+  color: var(--aqua);
+  display: block;
+}
+
+#intro h2 {
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+/* Contact me styles */
+
+#contact-me {
+  padding: 3rem 0;
+  background-color: var(--plum);
+  text-align: center;
+}
+
+#contact-me h2 {
+  font-size: 2rem;
+}
+
+#contact-me div {
+  width: 30rem;
+  margin: 0 auto;
+}
+
+#contact-me p {
+  font-size: 1.5rem;
+}
+
+#contact-me > p {
+  padding-top: 2rem;
 }
 
 /*
