@@ -63,8 +63,8 @@
   --aqua: #86fbfb;
   --white: #f7f8fa;
   --font-size: 1.3rem;
-  --mono: "Oxygen mono", monospace;
-  --sans: Oxygen, sans-serif;
+  --nunito: "Nunito", sans-serif;
+  --nunito-sans: "Nunito Sans", sans-serif;
 }
 /* border box model: https://css-tricks.com/box-sizing/ */
 html {
@@ -75,3 +75,52 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+body {
+  font-family: var(--nunito);
+  font-size: var(--font-size);
+
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--black1);
+  color: var(--white);
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  color: var(--magenta);
+}
+a:hover {
+  color: var(--hotmag);
+  text-decoration: none;
+}
+
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-<uniquifier > {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-sans-<uniquifier> {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+*/
