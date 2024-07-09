@@ -1,0 +1,77 @@
+/* Color Theme Swatches in Hex */
+.SUMMER-JAZZ-SERIES-2023-1-hex {
+  color: #b3b0bf;
+}
+.SUMMER-JAZZ-SERIES-2023-2-hex {
+  color: #192e59;
+}
+.SUMMER-JAZZ-SERIES-2023-3-hex {
+  color: #132640;
+}
+.SUMMER-JAZZ-SERIES-2023-4-hex {
+  color: #3d5473;
+}
+.SUMMER-JAZZ-SERIES-2023-5-hex {
+  color: #0d0d0d;
+}
+
+/* Color Theme Swatches in RGBA */
+.SUMMER-JAZZ-SERIES-2023-1-rgba {
+  color: rgba(179, 175, 191, 1);
+}
+.SUMMER-JAZZ-SERIES-2023-2-rgba {
+  color: rgba(24, 46, 89, 1);
+}
+.SUMMER-JAZZ-SERIES-2023-3-rgba {
+  color: rgba(19, 38, 63, 1);
+}
+.SUMMER-JAZZ-SERIES-2023-4-rgba {
+  color: rgba(60, 84, 114, 1);
+}
+.SUMMER-JAZZ-SERIES-2023-5-rgba {
+  color: rgba(12, 12, 12, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.SUMMER-JAZZ-SERIES-2023-1-hsla {
+  color: hsla(253, 10, 72, 1);
+}
+.SUMMER-JAZZ-SERIES-2023-2-hsla {
+  color: hsla(219, 56, 22, 1);
+}
+.SUMMER-JAZZ-SERIES-2023-3-hsla {
+  color: hsla(213, 53, 16, 1);
+}
+.SUMMER-JAZZ-SERIES-2023-4-hsla {
+  color: hsla(213, 30, 34, 1);
+}
+.SUMMER-JAZZ-SERIES-2023-5-hsla {
+  color: hsla(0, 0, 5, 1);
+}
+
+:root {
+  --black1: #171321;
+  --black2: #0d0d0d;
+  --blue1: #3d5473;
+  --blue2: #132640;
+  --blue3: #192e59;
+  --gray: #b3b0bf;
+  --dkblue: #0d314b;
+  --plum: #4b0d49;
+  --hotmag: #ff17e4;
+  --magenta: #e310cb;
+  --aqua: #86fbfb;
+  --white: #f7f8fa;
+  --font-size: 1.3rem;
+  --mono: "Oxygen mono", monospace;
+  --sans: Oxygen, sans-serif;
+}
+/* border box model: https://css-tricks.com/box-sizing/ */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
