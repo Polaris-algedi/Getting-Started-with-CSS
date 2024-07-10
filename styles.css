@@ -127,27 +127,72 @@ a:hover {
 
 /* Contact me styles */
 
-#contact-me {
+#contact {
   padding: 3rem 0;
   background-color: var(--plum);
   text-align: center;
 }
 
-#contact-me h2 {
+#contact h2 {
   font-size: 2rem;
 }
 
-#contact-me div {
+#contact div {
   width: 30rem;
   margin: 0 auto;
 }
 
-#contact-me p {
+#contact p {
   font-size: 1.5rem;
 }
 
-#contact-me > p {
+#contact > p {
   padding-top: 2rem;
+}
+
+nav {
+  font-family: var(--nunito);
+  font-size: 80%;
+  padding: 1rem;
+}
+
+nav h1 a {
+  font-family: var(--nunito-sans);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+nav [class*="fa-"] {
+  font-size: 150%;
+  color: var(--aqua);
+}
+
+nav h1 [class*="fa-"] {
+  font-size: 100%;
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+nav a:hover,
+nav [class*="fa-"]:hover {
+  color: var(--magenta);
 }
 
 /*
