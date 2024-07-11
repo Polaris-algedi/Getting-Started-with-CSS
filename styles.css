@@ -176,6 +176,18 @@ nav a [class*="fa-"]:hover {
   border-color: var(--magenta);
 }
 
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
+}
+
 /*
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 200 to 1000
