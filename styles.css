@@ -188,6 +188,24 @@ nav a [class*="fa-"]:hover {
   }
 }
 
+/* Footer styles */
+
+footer {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 3rem;
+}
+
 /*
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 200 to 1000
