@@ -161,7 +161,7 @@ nav a [class*="fa-"]:hover {
   color: var(--magenta);
 }
 
-nav li:last-child a {
+.button {
   display: block;
   padding: 0.5rem 1rem;
   border: 0.1rem solid var(--aqua);
@@ -170,7 +170,7 @@ nav li:last-child a {
   color: var(--magenta);
 }
 
-nav li:last-child a:hover {
+.button:hover {
   background-color: var(--blue3);
   color: var(--white);
   border-color: var(--magenta);
