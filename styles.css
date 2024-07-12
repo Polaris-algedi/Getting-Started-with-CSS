@@ -52,9 +52,11 @@ body {
   background-color: var(--black1);
   color: var(--white);
 }
+
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
 }
 
@@ -66,6 +68,10 @@ a:hover {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 /* intro styles */
 #intro {
   padding-bottom: 10rem;
@@ -75,11 +81,11 @@ a:hover {
   line-height: 1.5;
 }
 
-#intro .name {
+.name {
   font-family: var(--nunito);
 }
 
-#intro .name span {
+.name span {
   font-family: var(--nunito-sans);
   font-size: 4rem;
   color: var(--aqua);
@@ -167,7 +173,7 @@ nav a [class*="fa-"]:hover {
   display: inline-block;
   padding: 0.5rem 1rem;
   border: 0.1rem solid var(--aqua);
-  border-radius: 0.5rem;
+  border-radius: 25rem;
   background-color: var(--blue2);
   color: var(--aqua);
   text-decoration: none;
@@ -237,6 +243,72 @@ footer ul {
   );
   height: 2px;
 }
+
+#projects {
+  background-color: var(--dkblue);
+}
+
+/* Projects styles */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5rem * 1.5);
+}
+
+#projects h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--aqua);
+}
+
+.blackbox {
+  background-color: var(--black2);
+  padding: 1rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+#projects ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  gap: 2rem;
+}
+
+#projects img {
+  border-left: 1px solid var(--aqua);
+  border-top: 1px solid var(--aqua);
+  padding: 1.5rem;
+  border-radius: 25px;
+}
+
+@media (min-width: 550px) {
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .text {
+    order: 2;
+    text-align: right;
+  }
+
+  #projects ul {
+    justify-content: flex-end;
+  }
+}
+
 /*
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 200 to 1000
