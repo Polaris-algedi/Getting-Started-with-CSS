@@ -31,5 +31,5 @@ project-folder/
 - Professional portfolio layout
 
 ## Author
-This project was created as part of a CSS learning course by [Frontend Masters](https://frontendmasters.com/).
+This project was created as part of a [Frontend Masters](https://frontendmasters.com/) CSS learning course by [Polaris Algedi](https://github.com/Polaris-algedi/).
 
